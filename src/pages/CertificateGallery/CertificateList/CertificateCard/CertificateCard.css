@@ -1,0 +1,60 @@
+.certificate-card {
+  display: flex;
+  flex-direction: column;
+  width: 366px;
+  background: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+}
+
+.certificate-container {
+  width: 366px;
+  height: 230px;
+  background: rgba(165, 183, 187, 0.2);
+  border-radius: 0px 0px 2px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.certificate-image {
+  width: 300px;
+  height: 290px;
+}
+
+.certificate-information {
+  height: 100px;
+  margin: 0 24px;
+  position: relative;
+}
+
+.certificate-title {
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-size: 18px;
+  color: #313131;
+  padding-top: 10px;
+}
+
+.issued-to {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 13px;
+  color: #757575;
+  position: absolute;
+  bottom: 30px;
+}
+
+.issued-to span {
+  font-weight: 700;
+}
+
+.uploaded-data {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 13px;
+  color: #757575;
+  position: absolute;
+  bottom: 10px;
+}

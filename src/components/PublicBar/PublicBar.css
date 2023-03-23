@@ -1,0 +1,14 @@
+.profile-bar {
+  padding: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.icons-wrapper img {
+  width: 200px;
+  height: 45px;
+  margin-left: 2rem;
+}
+
+.icons-wrapper svg {
+  width: 50px;
+}

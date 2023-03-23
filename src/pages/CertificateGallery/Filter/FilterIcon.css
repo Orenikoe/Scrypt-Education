@@ -1,0 +1,11 @@
+.filter-button {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  background: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+  margin: 20px 0;
+  align-self: flex-end;
+  margin-right: 40px;
+}

@@ -1,0 +1,71 @@
+* {
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.filter-bar {
+  display: flex;
+}
+
+.login-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  text-align: center;
+  box-sizing: border-box;
+  width: 400px;
+  height: 570px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #dfdfdf;
+  padding: 3rem;
+}
+
+.company-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.company-logo {
+  height: 45px;
+}
+
+.forgot-password-wrapper {
+  text-align: right;
+}
+
+.forgot-password-wrapper a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  color: #3667e4;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.wrong {
+  color: red;
+}
+
+@media screen and (max-width: 450px) {
+  .form-container {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .forgot-password-wrapper {
+    padding-right: 1rem;
+  }
+}

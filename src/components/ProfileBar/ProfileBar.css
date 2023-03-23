@@ -1,0 +1,133 @@
+@keyframes slideDownTriangle {
+  from {
+    visibility: hidden;
+    transform: translate3d(0, -890%, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideUpTriangle {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    transform: translate3d(0, -1000%, 0);
+  }
+}
+
+@keyframes slideDownBox {
+  from {
+    visibility: hidden;
+    transform: translate3d(0, -130%, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideUpBox {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    transform: translate3d(0, -200%, 0);
+  }
+}
+
+.profile-bar {
+  height: 50px;
+  text-align: right;
+}
+
+.icons-wrapper svg {
+  margin: 1rem;
+}
+
+.user-logo {
+  cursor: pointer;
+  height: 30px;
+  display: inline-block;
+  position: relative;
+}
+
+.triangle,
+.triangle-gone {
+  position: absolute;
+  top: 75px;
+  right: 3.6%;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid rgba(128, 128, 128, 0.2);
+}
+
+.triangle {
+  animation: slideDownTriangle;
+  animation-duration: 1s;
+}
+
+.triangle-gone {
+  animation: slideUpTriangle;
+  animation-duration: 0.8s;
+}
+
+.drop-down-menu,
+.drop-down-menu-gone {
+  position: absolute;
+  right: 3.4%;
+  top: 83px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 2px solid rgba(128, 128, 128, 0.2);
+  border-radius: 5px;
+  padding: 15px 30px 5px;
+}
+
+.drop-down-menu {
+  animation: slideDownBox;
+  animation-duration: 0.9s;
+}
+
+.drop-down-menu-gone {
+  animation: slideUpBox;
+  animation-duration: 1s;
+}
+
+.drop-down-menu h5 {
+  text-align: center;
+  cursor: pointer;
+}
+
+.drop-down-menu h5:hover {
+  opacity: 0.5;
+}
+
+.drop-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.settings-drop-down-menu {
+  height: auto;
+  width: auto;
+  padding-right: 20px;
+}
+
+.icons-profile-wrapper svg {
+  margin: 1rem;
+  width: 50px;
+}

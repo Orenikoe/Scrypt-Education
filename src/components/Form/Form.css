@@ -1,0 +1,32 @@
+.form-input-wrapper {
+  position: relative;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 2rem 0 1rem;
+}
+
+.icon-wrapper {
+  position: absolute;
+  right: 1rem;
+  top: 3rem;
+}
+
+.input-field {
+  box-sizing: border-box;
+  width: 300px;
+  height: 35px;
+  background: #ffffff;
+  border: 1px solid #b9b8b8;
+  padding: 0 10px;
+  color: #728487;
+}
+
+.input-field::placeholder {
+  color: #b9b8b8;
+}

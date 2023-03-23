@@ -1,0 +1,225 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@keyframes copyBox {
+  0% {
+    visibility: visible;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.body-container {
+  padding: 42px;
+  min-width: 80vw;
+}
+
+.certificate-details-container {
+  display: flex;
+  border: 1px solid #b0b3b3;
+}
+
+.certificate-container-display {
+  background-color: rgba(165, 183, 187, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.certificate-image-display {
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  min-height: 790px;
+  background-color: #fafafa;
+  padding: 20px 50px;
+}
+
+.title-certificate {
+  width: 100%;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: left;
+  color: #313131;
+  margin: 30px 0;
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-top: 1px solid #d0d0d0;
+  border-bottom: 1px solid #d0d0d0;
+  width: 100%;
+}
+
+.status-label {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.verify-below {
+  font-weight: 500;
+  padding-left: 0.6rem;
+  color: #757575;
+  position: relative;
+  bottom: 3px;
+}
+
+.verify-below span {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.status-show {
+  display: flex;
+  animation: 1s fadeIn;
+}
+
+.status-hidden {
+  display: none;
+}
+
+.actual-status {
+  padding: 0 10px;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.status-icon {
+  width: 25px;
+  height: auto;
+  line-height: 26px;
+}
+
+.information {
+  padding: 26px 0 0;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.information-label {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #333333;
+  padding-right: 10px;
+  padding-bottom: 15px;
+}
+
+.certificate-info {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #757575;
+  padding-bottom: 25px;
+}
+
+.hash-label {
+  display: inline;
+}
+
+.copy-button {
+  background: none;
+  border: none;
+}
+
+.copy-button:active {
+  opacity: 50%;
+}
+
+.certificate-hash {
+  color: #858585;
+}
+
+.verify-certificate {
+  width: 100%;
+}
+
+.view-transaction-button {
+  width: 100%;
+  height: 45px;
+  border: 1px solid rgba(68, 92, 97, 0.5);
+  border-radius: 2px;
+  color: #445c61;
+  background-color: #fafafa;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.verify-button {
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 2px;
+  color: #ffffff;
+  background-color: #f15d22;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.view-transaction-button:hover,
+.verify-button:hover {
+  opacity: 0.85;
+}
+
+.view-transaction-button:active,
+.verify-button:active {
+  opacity: 1;
+}
+
+.copy-box {
+  width: 35px;
+  height: 20px;
+  display: inline;
+  animation: 2, 5s copyBox;
+  border: none;
+  color: #0a0a0a;
+  font-family: "Source Sans Pro";
+  font-weight: 500;
+  font-size: 14px;
+  padding-left: 2px;
+}
+
+.checkmark {
+  width: 15px;
+  height: auto;
+  margin-left: 10px;
+  animation: 2, 5s copyBox;
+}

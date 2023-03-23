@@ -1,0 +1,27 @@
+.certificate-page-container {
+  display: flex;
+  width: 100%;
+}
+
+.certificates-gallery {
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 85vw;
+  min-height: 95vh;
+  overflow: hidden;
+}
+
+.certificates-gallery-title {
+  padding: 23px 40px 17px;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 34px;
+  color: black;
+}
+
+.separation-line {
+  margin: 0 40px;
+}

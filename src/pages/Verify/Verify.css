@@ -1,0 +1,119 @@
+* {
+  caret-color: transparent;
+}
+
+.verify-page-container {
+  background: #fafafa;
+}
+
+.verify-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.inputs-title {
+  padding-bottom: 10px;
+}
+
+.inputs-container {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 2rem;
+  min-width: 300px;
+  padding: 30px 50px;
+  border: 1px solid rgba(68, 92, 97, 0.2);
+  border-radius: 2px;
+  background-color: white;
+}
+
+.clear-filters-button-issue {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 45px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #fe5353;
+  background-color: #fff;
+  border: 1px solid rgba(254, 83, 83, 0.4);
+  border-radius: 2px;
+  margin-top: 30px;
+}
+
+.verify-window-wrapper {
+  background: white;
+  border: 1px solid rgba(68, 92, 97, 0.2);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  margin: 2rem 0 4rem;
+}
+
+.verify-window-exit svg {
+  left: 20.83%;
+  right: 20.83%;
+  top: 20.83%;
+  bottom: 20.83%;
+  cursor: pointer;
+}
+
+.verify-window-exit {
+  text-align: right;
+  padding: 2rem 2rem 0rem 2rem;
+}
+
+.title-wrapper {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.dnd-window {
+  height: 280px;
+  min-width: 300px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fafafa;
+  border: 1px dashed #a5b7bb;
+  border-radius: 2px 0px 0px 2px;
+}
+
+.dnd-p-select {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.dnd-p-drag {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #979797;
+}
+
+.btn-wrapper {
+  margin-top: 3rem;
+}
+
+.error-line p {
+  color: #f15d22;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: justify;
+  max-width: 300px;
+  padding-top: 1.2rem;
+}

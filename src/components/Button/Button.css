@@ -1,0 +1,35 @@
+.button {
+  background-color: white;
+  color: #f15d22;
+  width: 100%;
+  border: 2px solid rgba(241, 93, 34, 0.4);
+  border-radius: 2px;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #f15d22;
+  color: white;
+}
+
+.can-submit {
+  background-color: #f15d22;
+  color: white;
+  width: 100%;
+  border: 2px solid rgba(241, 93, 34, 0.4);
+  border-radius: 2px;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.can-log-in:hover {
+  background-color: white;
+  color: #f15d22;
+}

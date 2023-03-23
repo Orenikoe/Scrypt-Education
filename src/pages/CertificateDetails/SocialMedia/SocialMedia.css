@@ -1,0 +1,21 @@
+.social-share {
+  width: 100%;
+  padding: 25px 0 35px;
+}
+
+.icon-social-facebook,
+.icon-social-twitter {
+  height: 35px;
+  width: 35px;
+  border-radius: 0px;
+}
+
+.icon-social-twitter {
+  margin: 0 20px;
+}
+
+.icon-social-linkedin {
+  height: 33px;
+  width: 33px;
+  border-radius: 0px;
+}

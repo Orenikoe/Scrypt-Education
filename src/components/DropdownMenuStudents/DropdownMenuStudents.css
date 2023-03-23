@@ -1,0 +1,12 @@
+.dropdown-container {
+  min-width: 250px;
+  height: 45px;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 30px;
+  padding: 0 5px;
+  border: 1px solid rgba(165, 183, 187, 0.5);
+  border-radius: 2px;
+}
